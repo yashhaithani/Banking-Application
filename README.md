@@ -12,5 +12,8 @@ This repository contains the source code for a Banking Application developed usi
 ->Technologies Used
 
 -Java Spring Boot: The application's backend is built using the Spring Boot framework, providing robustness, scalability, and ease of development.
+
 -MySQL: The application utilizes MySQL as the database management system to store and manage user account information, transaction data, and loan details.
+
 -Maven: Maven is used as the build automation tool to manage project dependencies and build the application.
+
