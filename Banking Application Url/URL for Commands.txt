@@ -1,0 +1,21 @@
+------------> URL for Commands <--------------
+
+
+->To Get all Accounts: 
+http://localhost:8080/api/accounts
+
+
+->To Delete the Account: 
+http://localhost:8080/api/accounts/2
+
+
+->To Deposit: 
+http://localhost:8080/api/accounts/2/deposit
+
+
+->To Withdraw
+http://localhost:8080/api/accounts/2/withdraw
+
+
+->Perticular Account details
+http://localhost:8080/api/accounts/3
