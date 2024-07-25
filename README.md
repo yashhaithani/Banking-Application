@@ -12,13 +12,21 @@ Developed a comprehensive Banking Application using Spring Boot Framework with J
 6. Utilized a tech stack including Java Spring Boot, MySQL, and RESTful API development, showcasing versatility in back-end development and the ability to create scalable, efficient financial applications.
 
 ->Technologies Used
+
 -Java Spring Boot: The application's backend is built using the Spring Boot framework, providing robustness, scalability, and ease of development.
+
 -MySQL: The application utilizes MySQL as the database management system to store and manage user account information, transaction data, and loan details.
+
 -Maven: Maven is used as the build automation tool to manage project dependencies and build the application.
 
 -> Dependency used
+
 -Spring Web: Enabled the development of web applications, including RESTful services, using Spring MVC.
+
 -Spring Data JPA: Simplified database access and management by reducing boilerplate code for JPA-based repositories.
+
 -Spring Data JDBC: Provided a more lightweight and SQL-focused data access approach compared to JPA.
+
 -MySQL Driver: Facilitated connection and interaction with MySQL databases in the application.
+
 -Lombok: Reduced boilerplate code by automatically generating getters, setters, constructors, and other common methods.
