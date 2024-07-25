@@ -1,4 +1,4 @@
-/*Banking Application*/
+**Banking Application**
 Developed a comprehensive Banking Application using Spring Boot Framework with Java 17, showcasing proficiency in modern Java development and enterprise-level application architecture. The application provides features to manage user accounts, perform financial transactions, and handle loans based on bank balances.
 
 -> Features
