@@ -1,32 +1,45 @@
 # Banking Application
 
-Developed a comprehensive Banking Application using Spring Boot Framework with Java 17, showcasing proficiency in modern Java development and enterprise-level application architecture. The application provides features to manage user accounts, perform financial transactions, and handle loans based on bank balances.
+Tech Stack: Java 13 & 17, Spring Boot, Spring Security, MySQL, Spring Data JPA, Maven, Lombok, JUnit 5, SLF4J
 
--> Features
+Developed a comprehensive, secure banking backend system using Spring Boot and Java, showcasing enterprise-level architecture and modern Java development practices.
 
-1. Implemented full CRUD (Create, Read, Update, Delete) functionality for user accounts, demonstrating strong database management skills and ensuring seamless user data handling within the MySQL database.
-2. Designed and integrated secure financial transaction features, including deposits, withdrawals, and inter-account transfers, highlighting expertise in building robust financial systems with high data integrity.
-3. Created an automated loan management system that evaluates user eligibility based on account balances, streamlining the loan application process and showcasing ability to implement complex business logic.
-4. Developed RESTful APIs to facilitate smooth integration with front-end systems and potential third-party services, demonstrating skills in API design and implementation.
-5. Implemented rigorous testing protocols, achieving a 99.9% data integrity rate, underscoring commitment to producing high-quality, reliable software solutions.
-6. Utilized a tech stack including Java Spring Boot, MySQL, and RESTful API development, showcasing versatility in back-end development and the ability to create scalable, efficient financial applications.
+Key Features:
+Account Management (CRUD):
+Implemented full CRUD operations for user accounts using Spring Data JPA and JDBC, ensuring seamless data handling within a MySQL database.
 
-->Technologies Used
+Secure Financial Transactions:
+Built robust transaction modules for deposits, withdrawals, and inter-account transfers, ensuring ACID compliance and data integrity across all operations.
 
--Java Spring Boot: The application's backend is built using the Spring Boot framework, providing robustness, scalability, and ease of development.
+Loan Management System:
+Designed a real-time loan eligibility module based on user account balances, automating loan processing and enforcing complex business rules.
 
--MySQL: The application utilizes MySQL as the database management system to store and manage user account information, transaction data, and loan details.
+RESTful API Design:
+Developed scalable REST APIs for integration with front-end systems and third-party services, adhering to best practices in API security and design.
 
--Maven: Maven is used as the build automation tool to manage project dependencies and build the application.
+Dynamic User Filtering:
+Enabled filtering based on location and salary brackets to support targeted marketing and financial offerings.
 
--> Dependency used
+Email Notifications:
+Integrated Spring Mail to automatically notify users about successful transactions and loan approval status.
 
--Spring Web: Enabled the development of web applications, including RESTful services, using Spring MVC.
+Security:
+Secured endpoints using Spring Security, ensuring proper authentication and authorization.
 
--Spring Data JPA: Simplified database access and management by reducing boilerplate code for JPA-based repositories.
+Testing and Logging:
+Achieved 99.9% data integrity through JUnit 5 testing, and implemented centralized logging using SLF4J for system monitoring and API traceability.
 
--Spring Data JDBC: Provided a more lightweight and SQL-focused data access approach compared to JPA.
+Tools and Dependencies:
+Spring Web: For building RESTful services using Spring MVC.
 
--MySQL Driver: Facilitated connection and interaction with MySQL databases in the application.
+Spring Data JPA & JDBC: For seamless and flexible database access.
 
--Lombok: Reduced boilerplate code by automatically generating getters, setters, constructors, and other common methods.
+Spring Security: For authentication and authorization of API endpoints.
+
+Spring Mail: For sending automated transactional emails.
+
+MySQL Connector: For database interaction.
+
+Lombok: For reducing boilerplate code.
+
+Maven: For project build and dependency management.
